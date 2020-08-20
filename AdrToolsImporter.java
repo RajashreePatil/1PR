@@ -128,6 +128,8 @@ public class AdrToolsImporter {
         }
     }
     System.out.println("Hello");
+    
+    
 
     private Date extractDate(String content) throws Exception {
         Matcher matcher = dateRegex.matcher(content);
